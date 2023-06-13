@@ -1,0 +1,19 @@
+"captureNotes":{
+      "message.featureId.notNull": "Id Fitur tidak boleh nol.",
+      "message.notes.notBlank": "Catatan tidak boleh kosong.",
+      "message.lmsId.notNull": "Id LMS tidak boleh nol",
+      "validation.pageNo.min": "Halaman Tidak ada nilai minimum harus 0.",
+      "validation.pageSize.min": "Nilai minimum Ukuran Halaman harus 1.",
+      "message.success": "Kesuksesan",
+      "message.cache.clear.success": "Cache Berhasil Dihapus.",
+      "validation.create.notesId.null": "Id Catatan harus nol untuk membuat catatan baru.",
+      "validation.featureId.invalid": "Id Fitur tidak valid",
+      "validation.lmsId.invalid": "Id LMS tidak valid",
+      "message.notes.create.success": "Catatan Berhasil Dibuat.",
+      "validation.update.notesId.notNull": "Id Catatan tidak boleh nol.",
+      "validation.notes.update.notFound": "Tidak ditemukan catatan untuk diperbarui.",
+      "message.notes.update.success": "Catatan berhasil diperbarui",
+      "validation.notes.notFound": "Tidak ada Catatan yang ditemukan",
+      "message.notes.fetch.success": "Catatan berhasil diambil",
+      "message.notes.pages.success" : "Catatan Halaman berhasil diambil."
+  }

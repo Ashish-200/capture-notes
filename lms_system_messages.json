@@ -1,0 +1,19 @@
+"captureNotes":{
+      "message.featureId.notNull": "Feature Id cannot be null.",
+      "message.lmsId.notNull": "LMS Id cannot be null",
+      "message.notes.notBlank": "Notes cannot be blank.",
+      "validation.pageNo.min": "Page No minimum value must be 0.",
+      "validation.pageSize.min": "Page Size minimum value must be 1.",
+      "message.success": "Success",
+      "message.cache.clear.success": "Cache cleared Successfully.",
+      "validation.create.notesId.null": "Notes Id must be null for creating new notes.",
+      "validation.featureId.invalid": "Feature Id is invalid",
+      "validation.lmsId.invalid": "LMS Id is invalid",
+      "message.notes.create.success": "Notes Created Successfully.",
+      "validation.update.notesId.notNull": "Notes Id cannot be null.",
+      "validation.notes.update.notFound": "No notes found to update.",
+      "message.notes.update.success": "Notes updated successfully",
+      "validation.notes.notFound": "No Notes found",
+      "message.notes.fetch.success": "Notes fetched successfully",
+      "message.notes.pages.success" : "Notes Pages fetched successfully."
+  }

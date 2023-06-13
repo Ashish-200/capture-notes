@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "af47ef7a-faff-4e20-9bfa-48bebe7844dd",
+		"name": "Capture Notes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Clear Cache",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "traceId",
+						"value": "traceId",
+						"type": "default"
+					},
+					{
+						"key": "tenantId",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/captureNotes/v1/clearCache",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"captureNotes",
+						"v1",
+						"clearCache"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Notes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "traceId",
+						"value": "traceId",
+						"type": "default"
+					},
+					{
+						"key": "tenantId",
+						"value": "1",
+						"type": "default"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"createdBy\": \"string\",\n    \"creationDateTime\": \"2023-05-25T12:12:01.567Z\",\n    \"creationRemarks\": \"string\",\n    \"decisionBy\": \"string\",\n    \"decisionDateTime\": \"2023-05-25T12:12:01.567Z\",\n    \"decisionRemarks\": \"string\",\n    \"featureId\": 1,\n    \"field1\": \"string\",\n    \"field2\": \"string\",\n    \"field3\": \"string\",\n    \"field4\": \"string\",\n    \"field5\": \"string\",\n    \"field6\": \"string\",\n    \"field7\": \"string\",\n    \"lmsId\": 1,\n    \"notes\": \"Hello\",\n    \"statusId\": \"A\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/captureNotes/v1/createNotes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"captureNotes",
+						"v1",
+						"createNotes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Notes",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "traceId",
+						"value": "traceId",
+						"type": "default"
+					},
+					{
+						"key": "tenantId",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"createdBy\": \"string\",\n    \"creationDateTime\": \"2023-05-25T12:12:01.567Z\",\n    \"creationRemarks\": \"string\",\n    \"decisionBy\": \"string\",\n    \"decisionDateTime\": \"2023-05-25T12:12:01.567Z\",\n    \"decisionRemarks\": \"string\",\n    \"featureId\": 1,\n    \"field1\": \"string\",\n    \"field2\": \"string\",\n    \"field3\": \"string\",\n    \"field4\": \"string\",\n    \"field5\": \"string\",\n    \"field6\": \"string\",\n    \"field7\": \"string\",\n    \"lmsId\": 1,\n    \"notes\": \"Hello\",\n    \"notesId\": 3,\n    \"statusId\": \"A\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/captureNotes/v1/updateNotes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"captureNotes",
+						"v1",
+						"updateNotes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Notes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "traceId",
+						"value": "traceid",
+						"type": "default"
+					},
+					{
+						"key": "tenantId",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lmsId\": 1,\n    \"notes\": \"Hello\",\n    \"notesId\": 3,\n    \"statusId\": \"A\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/captureNotes/v1/fetchNotes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"captureNotes",
+						"v1",
+						"fetchNotes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Notes Using Paging",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "traceid",
+						"value": "traceId",
+						"type": "default"
+					},
+					{
+						"key": "tenantId",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"captureNotesBean\": {},\n    \"pageNo\": 0,\n    \"pageSize\": 100,\n    \"sortingFieldWithOrder\": [\n        \"string\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/captureNotes/v1/fetchNotesUsingPaging",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"captureNotes",
+						"v1",
+						"fetchNotesUsingPaging"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Help",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "traceId",
+						"value": "traceId",
+						"type": "default"
+					},
+					{
+						"key": "tenantId",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/captureNotes/v1/help",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"captureNotes",
+						"v1",
+						"help"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

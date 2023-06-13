@@ -1,0 +1,19 @@
+"captureNotes":{
+      "message.featureId.notNull": "L'ID de fonctionnalité ne peut pas être nul.",
+      "message.lmsId.notNull": "L'identifiant LMS ne peut pas être nul",
+      "message.notes.notBlank": "Les notes ne peuvent pas être vides.",
+      "validation.pageNo.min": "Page Aucune valeur minimale ne doit être 0.",
+      "validation.pageSize.min": "La valeur minimale de la taille de la page doit être 1.",
+      "message.success": "Succès",
+      "message.cache.clear.success": "Cache vidé avec succès.",
+      "validation.create.notesId.null": "L'ID de notes doit être nul pour créer de nouvelles notes.",
+      "validation.featureId.invalid": "L'identifiant de la fonctionnalité n'est pas valide",
+      "validation.lmsId.invalid": "L'identifiant LMS n'est pas valide",
+      "message.notes.create.success": "Notes créées avec succès.",
+      "validation.update.notesId.notNull": "L'ID de notes ne peut pas être nul.",
+      "validation.notes.update.notFound": "Aucune note trouvée à mettre à jour.",
+      "message.notes.update.success": "Notes mises à jour avec succès",
+      "validation.notes.notFound": "Aucune note trouvée",
+      "message.notes.fetch.success": "Notes récupérées avec succès",
+      "message.notes.pages.success" : "Pages de notes récupérées avec succès."
+  }
